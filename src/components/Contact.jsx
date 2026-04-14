@@ -11,6 +11,7 @@ const Contact = () => {
 		 scrollTrigger: {
 			trigger: '#contact',
 			start: 'top center',
+			toggleActions: 'play reverse play reverse',
 		 },
 		 ease: "power1.inOut"
 		})
@@ -22,17 +23,19 @@ const Contact = () => {
 		.from('#contact h3, #contact p', {
 			opacity: 0, yPercent: 100, stagger: 0.02
 	 })
+	 
+	     // the leaf animation must reset when the section is re-entered
 		.to('#f-right-leaf', {
-		 y: '-50', duration: 1, ease: 'power1.inOut'
-	 }).to('#f-left-leaf', {
-		 y: '-50', duration: 1, ease: 'power1.inOut'
-	 }, '<')
+		 y: '-50', rotate: 10, duration: 1, ease: 'power1.inOut'
+	 }, 0).to('#f-left-leaf', {
+		 y: '-50', rotate: -10, duration: 1, ease: 'power1.inOut'
+	 }, 0)
 	})
  
  return (
 	<footer id="contact">
-	 <img src="/images/footer-right-leaf.png" alt="leaf-right" id="f-right-leaf" />
-	 <img src="/images/footer-left-leaf.png" alt="leaf-left" id="f-left-leaf" />
+	 <img src="/images/blueberry.png" alt="leaf-right" id="f-right-leaf" />
+	 <img src="/images/mango.png" alt="leaf-left" id="f-left-leaf" />
 	 
 	 <div className="content">
 		<h2>Where to Find Us</h2>

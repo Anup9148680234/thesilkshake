@@ -29,16 +29,16 @@ const About = () => {
 	 <div className="mb-16 md:px-0 px-5">
 		<div className="content">
 		 <div className="md:col-span-8">
-			<p className="badge">Best Cocktails</p>
+			<p className="badge">Best Milkshakes</p>
 			<h2>
-			 Where every detail matters <span className="text-white">-</span>
-				from muddle to garnish
+		       		At The Silk Shake we are dedicated to delivering the ultimate milkshake experience 
+		
 			</h2>
 		 </div>
 		 
 		 <div className="sub-content">
 			<p>
-			 Every cocktail we serve is a reflection of our obsession with detail — from the first muddle to the final garnish. That care is what turns a simple drink into something truly memorable.
+			 We are passionate about crafting the perfect milkshake experience. Our team of expert mixologists meticulously selects the finest ingredients, ensuring that every sip delivers a burst of flavor and satisfaction. From classic favorites to innovative creations, we take pride in our attention to detail, from the muddle to the garnish, to create unforgettable milkshake moments for our customers.
 			</p>
 			
 			<div>

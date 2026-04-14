@@ -8,6 +8,14 @@ import gsap from 'gsap';
 const Menu = () => {
  const contentRef = useRef();
  const [currentIndex, setCurrentIndex] = useState(0);
+
+ const imageMapping = {
+	0: '/images/strawberry.png',
+	1: '/images/choco.png',
+	2: '/images/mango.png',
+	3: '/images/blueberry.png',
+
+ }
  
  useGSAP(() => {
 	gsap.fromTo('#title', { opacity: 0 }, { opacity: 1, duration: 1 });
@@ -40,8 +48,8 @@ const Menu = () => {
  
  return (
 	<section id="menu" aria-labelledby="menu-heading">
-	 <img src="/images/slider-left-leaf.png" alt="left-leaf" id="m-left-leaf" />
-	 <img src="/images/slider-right-leaf.png" alt="right-leaf" id="m-right-leaf" />
+	 <img src={imageMapping[currentIndex]} alt="left-leaf" id="m-left-leaf" />
+	 <img src="/images/leaf-1.png" alt="right-leaf" id="m-right-leaf" />
 	 
 	 <h2 id="menu-heading" className="sr-only">
 		Cocktail Menu

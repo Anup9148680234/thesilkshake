@@ -24,12 +24,12 @@ const Cocktails = () => {
  
  return (
 	<section id="cocktails" className="noisy">
-	 <img src="/images/cocktail-left-leaf.png" alt="l-leaf" id="c-left-leaf" />
-	 <img src="/images/cocktail-right-leaf.png" alt="r-leaf" id="c-right-leaf" />
+	 <img src="/images/vanilla.png" alt="l-leaf" id="c-left-leaf" />
+	 <img src="/images/leaf-1.png" alt="r-leaf" id="c-right-leaf" />
 	 
 	 <div className="list">
 		<div className="popular">
-		 <h2>Most popular cocktails:</h2>
+		 <h2>Most popular milkshakes:</h2>
 		 
 		 <ul>
 			{cocktailLists.map(({ name, country, detail, price }) => (
@@ -45,7 +45,7 @@ const Cocktails = () => {
 		</div>
 		
 		<div className="loved">
-		 <h2>Most loved mocktails:</h2>
+		 <h2>Most loved milkshakes:</h2>
 		 
 		 <ul>
 			{mockTailLists.map(({ name, country, detail, price }) => (

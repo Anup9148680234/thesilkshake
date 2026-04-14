@@ -1,7 +1,7 @@
 const navLinks = [
  {
-	id: "cocktails",
-	title: "Cocktails",
+	id: "milkshakes",
+	title: "Milkshakes",
  },
  {
 	id: "about",
@@ -19,52 +19,52 @@ const navLinks = [
 
 const cocktailLists = [
  {
-	name: "Chapel Hill Shiraz",
-	country: "AU",
+	name: "Strawberry Milkshake",
+	country: "GB",
 	detail: "Battle",
 	price: "$10",
  },
  {
-	name: "Caten Malbee",
-	country: "AU",
+	name: "Chocolate Delight",
+	country: "GB",
 	detail: "Battle",
-	price: "$49",
+	price: "$19",
  },
  {
-	name: "Rhino Pale Ale",
+	name: "Mango Tango",
 	country: "CA",
 	detail: "750 ml",
 	price: "$20",
  },
  {
-	name: "Irish Guinness",
+	name: "Vanilla Dream",
 	country: "IE",
 	detail: "600 ml",
-	price: "$29",
+	price: "$10",
  },
 ];
 
 const mockTailLists = [
  {
-	name: "Tropical Bloom",
+	name: "Minty Fresh",
 	country: "US",
 	detail: "Battle",
 	price: "$10",
  },
  {
-	name: "Passionfruit Mint",
+	name: "Pista Passion",
 	country: "US",
 	detail: "Battle",
-	price: "$49",
+	price: "$19",
  },
  {
-	name: "Citrus Glow",
+	name: "Blueberry Bliss",
 	country: "CA",
 	detail: "750 ml",
 	price: "$20",
  },
  {
-	name: "Lavender Fizz",
+	name: "Caramel Swirl",
 	country: "IE",
 	detail: "600 ml",
 	price: "$29",
@@ -158,6 +158,14 @@ const allCocktails = [
 	title: "Mango Tango: A Tropical Dance of Flavors",
 	description:
 	 "The Mango Tango is a vibrant blend of tropical mango, creamy coconut, and a hint of citrus. Each sip is a tropical getaway that brings the sunshine to your glass.",
+ },
+ {
+	id: 4,
+	name: "Blueberry Bliss",
+	image: "/images/shake4.png",
+	title: "Blueberry Bliss: A Burst of Berry Goodness",
+	description:
+	 "The Blueberry Bliss is a luscious blend of juicy blueberries, creamy vanilla, and a touch of sweetness. Each sip is a burst of berry goodness that transports you to a blissful state of indulgence.",
  }
 ];
 

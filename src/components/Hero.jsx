@@ -46,8 +46,8 @@ const Hero = () => {
 		scrub: true,
 	 },
 	})
-	.to(".right-leaf", { y: 200 }, 0)
-	.to(".left-leaf", { y: -200 }, 0)
+	.to(".right-leaf", { y: 200, rotate: 100 }, 0)
+	.to(".left-leaf", { y: -200, rotate: -100 }, 0)
 	.to(".arrow", { y: 100 }, 0);
 	
 	const startValue = isMobile ? "top 10%" : "center 70%";
@@ -73,15 +73,15 @@ const Hero = () => {
  return (
 	<>
 	 <section id="hero" className="noisy">
-		<h1 className="title">Strawberry <br />Milkshake</h1>
+		<h1 className="title">Strawberry Milkshake</h1>
 		
 		<img
-		 src="/images/hero-left-leaf.png"
+		 src="/images/strawberry.png"
 		 alt="left-leaf"
 		 className="left-leaf"
 		/>
 		<img
-		 src="/images/hero-right-leaf.png"
+		 src="/images/strawberry1.png"
 		 alt="right-leaf"
 		 className="right-leaf"
 		/>
@@ -90,20 +90,21 @@ const Hero = () => {
 		 {/* <img src="/images/arrow.png" alt="arrow" className="arrow" /> */}
 		 
 		 <div className="content">
-			<div className="space-y-20 hidden md:block">
-			 <p>Cool. Crisp. Classic.</p>
+			<div className="space-y-10 hidden md:block">
+			 <p>Thick. Creamy. Delicious.</p>
 			 <p className="subtitle">
-				Sip the Spirit <br /> of Summer
-			 </p>
+				Sip on your
+				<br />
+				 childhood
+				</p>
 			</div>
 			
 			<div className="view-cocktails">
 			 <p className="subtitle">
-				Every cocktail on our menu is a blend of premium ingredients,
-				creative flair, and timeless recipes — designed to delight your
-				senses.
+				Discover our signature milkshakes, crafted with love and the finest ingredients,
+				 designed to delight your taste buds and evoke sweet memories.
 			 </p>
-			 <a href="#cocktails">View cocktails</a>
+			 <a href="#cocktails">View Milkshakes</a>
 			</div>
 		 </div>
 		</div>
