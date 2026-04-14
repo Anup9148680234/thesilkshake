@@ -22,7 +22,7 @@ const Hero = () => {
 	heroSplit.chars.forEach((char) => char.classList.add("text-gradient"));
 	
 	gsap.from(heroSplit.chars, {
-	 yPercent: 100,
+	 yPercent:  100,
 	 duration: 1.8,
 	 ease: "expo.out",
 	 stagger: 0.06,
@@ -50,7 +50,7 @@ const Hero = () => {
 	.to(".left-leaf", { y: -200, rotate: -100 }, 0)
 	.to(".arrow", { y: 100 }, 0);
 	
-	const startValue = isMobile ? "top 10%" : "center 70%";
+	const startValue = isMobile ? "top 40%" : "center 70%";
 	const endValue = isMobile ? "160% top" : "bottom top";
 	
 	let tl = gsap.timeline({
