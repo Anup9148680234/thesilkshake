@@ -94,7 +94,7 @@ body {
         @apply relative z-10 min-h-dvh w-full border border-transparent;
 
         h1 {
-            @apply md:mt-20 mt-30 text-xl md:text-[5vw]  text-center font-modern-negra;
+            @apply md:mt-20 mt-40 text-xl md:text-[5vw]  text-center font-modern-negra;
         }
 
         .left-leaf {
