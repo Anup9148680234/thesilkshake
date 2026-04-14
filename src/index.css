@@ -303,14 +303,18 @@ body {
             @apply flex flex-col justify-between items-center container mx-auto relative;
 
             .arrows {
-                @apply absolute flex items-center justify-between w-full absolute;
+                @apply absolute flex items-center justify-between w-full  top-[40vh] md:top-0 ;
 
                 button {
-                    @apply text-white hover:text-yellow cursor-pointer transition-colors max-w-36;
+                    @apply text-white hover:text-yellow cursor-pointer transition-colors max-w-12;
 
                     span {
-                        @apply text-3xl font-modern-negra leading-none hidden md:block;
+                        @apply text-2xl font-modern-negra leading-none hidden md:block my-2;
                     }
+                }
+
+                svg{
+                    @apply w-5 h-5  fill-amber-50;
                 }
             }
         }
